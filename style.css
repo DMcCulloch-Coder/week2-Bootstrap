@@ -1,6 +1,8 @@
 body {
     background-image: url(images/marbel.png);
     font-family: 'Arial', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
 
 
 }
@@ -13,9 +15,9 @@ p {
 .navbar {
     background-color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-
-
-
+    border: 2px solid #cccccc;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -27,8 +29,20 @@ p {
 
 }
 
+.navRight {
+    border-left: 1px solid #cccccc;
+
+}
+
+.navWrapper {
+    margin: auto;
+    width: 940px;
+
+}
+
 .nav-item {
-    padding: 10px;
+    margin: 20px 0px;
+    padding: 0px 20px 0px 20px;
 
 
 }
@@ -54,4 +68,8 @@ a:active {
 a:hover {
     color: lightblue;
 
+}
+
+#profilePic {
+    height: 100px;
 }
