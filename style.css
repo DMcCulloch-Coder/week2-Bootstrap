@@ -1,0 +1,23 @@
+body {
+    background-image: url(images/marbel.png);
+    font-family: 'Arial', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+p {
+    color: #777777;
+
+}
+
+.navbar {
+    background-color: #ffffff;
+
+
+
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+
+}
