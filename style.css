@@ -10,6 +10,7 @@ body {
 
 p {
     color: #777777;
+    margin: 20px;
 
 }
 
@@ -96,14 +97,21 @@ nav {
 
 .sectionName {
     margin: 20px;
+    padding-top: 20px;
 
 }
 
 .footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
+    width: 100%;
+
+    position: fixed;
+    bottom:0px;
     
 }
+
+
 
 .socialLink {
     margin: 20px;
