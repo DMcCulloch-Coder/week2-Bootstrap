@@ -1,9 +1,16 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-image: url(images/marbel.png);
     font-family: 'Arial', 'Helvetica Neue', sans-serif;
     line-height: 1;
+    display: flex;
+    flex-direction: column;
 
 }
+
 p {
     color: #777777;
 
@@ -93,5 +100,12 @@ nav {
 }
 
 .footer {
-    box-sizing: border-box;
+    flex-shrink: 0;
+    
 }
+
+.fluid-container {
+    flex: 1 0 auto;
+
+}
+
