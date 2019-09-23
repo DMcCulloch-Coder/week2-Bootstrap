@@ -1,13 +1,10 @@
-html, body {
-    height: 100%;
-}
+
 
 body {
     background-image: url(images/marbel.png);
     font-family: 'Arial', 'Helvetica Neue', sans-serif;
     line-height: 1;
-    display: flex;
-    flex-direction: column;
+    color: #777777;
 
 }
 
@@ -84,7 +81,10 @@ nav {
 
 }
 #profilePic {
-    height: 100px;
+    height: 250px;
+    float: left;
+    margin: 30px 30px 20px 30px;
+
 }
 
 #myName {
@@ -100,12 +100,104 @@ nav {
 }
 
 .footer {
-    flex-shrink: 0;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
     
 }
 
-.fluid-container {
-    flex: 1 0 auto;
+.socialLink {
+    margin: 20px;
+}
+
+#copyright {
+    float: right;
+    margin: 20px;
+
+} 
+
+.sectionName {
+    margin: 5px 30px;
+    color: #4aaaa5;
+    font-size: 130%;
 
 }
 
+.projectWrapper {
+    margin: 30px;
+    width: 220px;
+    height: 140px;
+    float: left;
+    
+}
+
+#hangman {
+    background: url('../images/hangman.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#rpgGame {
+    background: url('../images/rpg2.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#triviaGame {
+    background: url('../images/trivia.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#infoWidget {
+    background: url('../images/Info-widget.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#rps {
+    background: url('../images/rockpaper.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.projectDiv {
+    margin:0;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    background-color: #4aaaa5;
+    opacity: 0.9;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 0px;
+
+}
+
+.lineInput, .textInput {
+    width: 900px;
+    padding: 5px 10px;
+    margin: 0px 30px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.bodyDiv {
+    width: 960px;
+    margin: 30px auto 30px auto;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    
+}
